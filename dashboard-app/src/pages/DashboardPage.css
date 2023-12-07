@@ -1,0 +1,53 @@
+.layout {
+    background-color: #525252; /* Solid gray background for the entire page */
+    min-height: 100vh; /* Make sure it covers the full height of the viewport */
+    padding: 20px; /* This will act as the margin for the "Add Widget" button */
+}
+
+.add-widget-button {
+    width: calc(100% - 40px); /* Adjust the width based on the padding of the parent */
+    padding: 10px 0; /* Vertical padding for the button */
+    margin: 0 auto; /* Center the button horizontally */
+    background-color: #6d8396; /* Example blue background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Slight rounding of corners */
+    font-size: 1rem; /* Font size for the button text */
+    cursor: pointer; /* Change cursor to pointer to indicate button */
+    text-align: center; /* Center the text inside the button */
+}
+.add-widget-button:hover {
+    background-color: #3e73ac; /* Darker blue on hover */
+}
+
+.widget {
+    background: #424242;
+    padding: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+    color: white;
+}
+
+.widget-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.dashboard-button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #007bff; /* Example: Blue background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dashboard-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.dashboard-controls {
+    display: flex; /* Align buttons in a row */
+    justify-content: center; /* Center the buttons */
+    margin-bottom: 15px; /* Space below the button group */
+}

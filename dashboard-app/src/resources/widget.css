@@ -1,0 +1,41 @@
+.widget-menu {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+  }
+  
+  .widget-delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: grey;
+    opacity: 0.7;
+  }
+  
+  .widget-dropdown {
+    position: absolute;
+    right: 0;
+    background-color: white;
+    /* additional styles for dropdown */
+  }
+  
+  .widget-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .widget-dropdown li {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  .widget-dropdown li:hover {
+    background-color: #f0f0f0;
+  }
+  .widget-edit {
+    width: 100%; /* Or however wide it needs to be */
+    /* Additional styles */
+  }
+  
