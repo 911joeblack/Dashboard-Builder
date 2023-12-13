@@ -1,5 +1,4 @@
 # Dashboard Builder
-## What My Project is About
 The Custom Dashboard Builder is a web-based application that allows users to create their own custom dashboards for displaying, visualizing, and analyzing data from supported APIs or user-uploaded datasets. The goal is to provide a general-purpose tool that can be used by individuals and businesses alike to display information relevant to their interests or operations. The project will involve requirements engineering, architecture and design, user experience (UX) design, and the implementation of best practices and coding standards.
 ## Installation/Setup
 Clone the repo using the command 
