@@ -1,41 +1,55 @@
 .widget-menu {
-    position: absolute;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
-  }
-  
-  .widget-delete {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    color: grey;
-    opacity: 0.7;
-  }
-  
-  .widget-dropdown {
-    position: absolute;
-    right: 0;
-    background-color: white;
-    /* additional styles for dropdown */
-  }
-  
-  .widget-dropdown ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .widget-dropdown li {
-    padding: 8px 12px;
-    cursor: pointer;
-  }
-  .widget-dropdown li:hover {
-    background-color: #f0f0f0;
-  }
-  .widget-edit {
-    width: 100%; /* Or however wide it needs to be */
-    /* Additional styles */
-  }
-  
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.widget-delete {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: grey;
+  opacity: 0.7;
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px; /* Adjust as needed */
+}
+
+.widget-controls {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+.widget-dropdown {
+  position: absolute;
+  right: 0;
+  background-color: white;
+}
+
+.widget-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chart-container {
+  z-index: 1; 
+}
+
+.widget-dropdown li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.widget-dropdown li:hover {
+  background-color: #f0f0f0;
+}
+.widget-edit {
+  width: 100%;
+}

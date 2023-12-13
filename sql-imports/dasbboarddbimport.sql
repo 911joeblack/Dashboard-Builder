@@ -13,7 +13,8 @@ CREATE TABLE IF NOT EXISTS widgets (
     widget_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
     type VARCHAR(50) NOT NULL,
-    data TEXT, -- For storing widget-specific data (e.g., chart configuration)
+    filename VARCHAR(255),
+    data TEXT,
     position_x INT NOT NULL,
     position_y INT NOT NULL,
     width INT NOT NULL,
